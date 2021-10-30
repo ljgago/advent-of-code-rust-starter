@@ -46,12 +46,11 @@ Folder structure:
     └── src
         └── day01
            ├── bin
-           │   ├── main.rs
+           │   ├── day01.rs
            │   ├── part1.rs
            │   └── part2.rs
-           ├── README.md
-           └── resources
-               └── input.txt
+           ├── input.txt
+           └── README.md
 
 Happy coding!
 
