@@ -43,14 +43,14 @@ For example:
 
 Folder structure:
 
-    └── src
-        └── day01
-           ├── bin
-           │   ├── day01.rs
-           │   ├── part1.rs
-           │   └── part2.rs
-           ├── input.txt
-           └── README.md
+     src
+     └── day01
+         ├── bin
+         │   ├── day01.rs
+         │   ├── part1.rs
+         │   └── part2.rs
+         ├── input.txt
+         └── README.md
 
 Happy coding!
 
