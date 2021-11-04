@@ -1,5 +1,7 @@
 # Advent of Code Rust Starter
 
+A tamplate for [Advent of Code](https://adventofcode.com) write in Rust.
+
 - [Day 1](src/day01)
 - [Day 2](src/day02)
 - [Day 3](src/day03)
