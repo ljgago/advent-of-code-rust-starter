@@ -10,6 +10,6 @@ mod day15 {
 
     #[test]
     fn test_part2() {
-        assert_eq!(0, part2());
+        assert_eq!(part2(), 0);
     }
 }
