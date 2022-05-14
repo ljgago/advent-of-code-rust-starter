@@ -1,5 +1,7 @@
 # Advent of Code Rust Starter
 
+[![Run on Repl.it](https://repl.it/badge/github/ljgago/advent-of-code-rust-starter)](https://repl.it/github/ljgago/advent-of-code-rust-starter)
+
 A tamplate for [Advent of Code](https://adventofcode.com) write in Rust.
 
 - [Day 1](src/day01)
@@ -53,6 +55,24 @@ Folder structure:
          │   └── part2.rs
          ├── input.txt
          └── README.md
+
+## nix integration
+
+You can use `nix-shell` to install the rust and tool dependencies used to run
+the project.
+
+## Replit integration
+
+You can edit the `.replit` file and change the `run` command for different
+puzzles each day.
+
+For example:
+
+    # test the day01
+    run = "cargo test --bin day01"
+
+    # test the day02 and run the day02 if the test pass
+    run = "cargo test --bin day02 && cargo run --bin day02"
 
 Happy coding!
 
